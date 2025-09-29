@@ -1,0 +1,69 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+coverage/
+generated_plugin_registrant.dart
+
+# Android
+android/.gradle/
+android/captures/
+android/app/*.keystore
+android/app/*.jks
+android/local.properties
+android/key.properties
+**/*.iml
+.gradle/
+*.apk
+*.aar
+*.ap_
+*.dex
+*.class
+
+# iOS/macOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+ios/Runner/GeneratedPluginRegistrant.*
+ios/.generated/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/ephemeral/
+macos/Pods/
+
+# Windows
+windows/flutter/ephemeral/
+windows/runner/GeneratedPluginRegistrant.*
+
+# Linux
+linux/flutter/ephemeral/
+linux/runner/GeneratedPluginRegistrant.*
+
+# Web
+web/GeneratedPluginRegistrant.*
+
+# VS Code
+.vscode/
+.idea/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Others
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# Firebase/Google services (añade tu config manualmente si la usas)
+google-services.json
+GoogleService-Info.plist
